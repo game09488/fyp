@@ -94,7 +94,7 @@
                 </thead>
                 <tbody>
 				<?php 
-					$connect = mysqli_connect("localhost", "root", "", "attendance_system"); 
+					$connect = mysqli_connect("mysqldbserver.mysql.database.azure.com", "tp038166@fyp2018-mysqldbserver", "tp@038166", "fyp_db"); 
 					$lecturer = $_SESSION['lecturer_full_name'];
 					$sql = "SELECT * FROM course WHERE course_lecturer = '$lecturer' AND course.course_status != 'Await'";
 					$result = mysqli_query($connect, $sql);				
