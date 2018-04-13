@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'attendance_system',
+	'hostname' => 'mysqldbserver.mysql.database.azure.com',
+	'username' => 'tp038166@fyp2018-mysqldbserver',
+	'password' => 'tp@038166',
+	'database' => 'fyp_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
