@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mysqldbserver.mysql.database.azure.com',
-	'username' => 'tp038166@fyp2018-mysqldbserver',
+	'hostname' => 'fypdb2018.mysql.database.azure.com',
+	'username' => 'tp038166@fypdb2018',
 	'password' => 'tp@038166',
-	'database' => 'fyp_db',
+	'database' => 'fypdb2018',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
