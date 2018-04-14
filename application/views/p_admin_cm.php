@@ -115,7 +115,7 @@
                 </thead>				
                 <tbody>
 				<?php  
-						$connect = mysqli_connect("mysqldbserver.mysql.database.azure.com", "tp038166@fyp2018-mysqldbserver", "tp@038166", "fyp_db");  
+						$connect = mysqli_connect("fypdb2018.mysql.database.azure.com", "tp038166@fypdb2018", "tp@038166", "fypdb2018");
 						$sql = "SELECT * FROM course";  
 						$result = mysqli_query($connect, $sql);
 						if(mysqli_num_rows($result) > 0){
