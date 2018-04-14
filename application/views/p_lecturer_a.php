@@ -158,7 +158,7 @@
                 </thead>												
                 <tbody>	
 				<?php  
-						$connect = mysqli_connect("fypdb2018.mysql.database.azure.com", "tp038166@fypdb2018", "tp@038166", "fypdb2018");
+						$connect = mysqli_connect("fypdb2018.mysql.database.azure.com", "tp038166@fypdb2018", "tp@038166", "attendance_system");
 						$lecturer = $_SESSION['lecturer_full_name'];
 						$sql = "SELECT * FROM present INNER JOIN student ON present.student_tp = student.student_tp WHERE course_lecturer = '$lecturer'";  
 						$result = mysqli_query($connect, $sql);
